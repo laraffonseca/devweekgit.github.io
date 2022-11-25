@@ -47,12 +47,13 @@
 }
 
 .name {
-    color: #D6DBDF;
+    color: #bccad3;
     font-size: 25px;
     letter-spacing: px;
     text-transform: uppercase;
     margin-bottom: 10px;
     margin-top: 20px;
+    text-align: center;
 }
 
 .profession {
@@ -67,58 +68,112 @@
 .left-title {
     color: #FDB44B;
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-transform: uppercase;
 
    
 }
 
 ul {
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     list-style: none;
 }
 
 .contact-info ul li,
 .references ul li {
     padding: .4rem 0;
-    color: #F1F8FD;
+    color: #bccad3;
     list-style: none;
 }
 
 .contact-info ul li i,
 .references ul li i {
     padding: .4rem 0;
-    color: #F1F8FD;
+    color: #bccad3;
     list-style: none;
 }
 
+.skills{
+    margin-top: 2rem;
+}
+
 .skills ul {
-    padding: .4rem 0;
-    color: #F1F8FD;
+    padding: .3rem 1;
+    color: #bccad3;
     list-style: none;
-    line-height: 25px;
+    line-height: 30px;
 
 }
 .skills ul li p {
     padding: .4rem 0;
-    color: #F1F8FD;
+    color: #bccad3;
 }
 
 .right-section-contents {
     padding: 2rem 2rem;
 }
 
-.right-title {
+.right-title-about {
     color: #70C6C7;
     text-transform: uppercase;
     font-size: 30px;
+    margin-top: 1rem;
+    font-weight: lighter;
 }
 
 .gap {
     padding-bottom: 2rem;
 }
+
+
 .about-me-contents {
     font-size: 16px;
-    color: #F1F8FD;
-    margin-top: 20px;
+    color: #cadeeb;
+    margin-top: 2rem;
 }
+
+
+.right-title-experience{
+    color: #70C6C7;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 4rem;
+    font-weight: lighter;
+    
+}
+
+.company-name, .ocupation-title{
+    font-weight: lighter;
+    color: #FDB44B;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.experience-time{
+    font-size: 17px;
+    margin-top: 0.5rem;
+    color: #bccad3;
+}
+
+.ocupation-title{
+    font-size: 25px;
+    
+}
+
+.about-me-ocupation{
+    font-size: 16px;
+    padding-left: 5px;
+    color: #bccad3;
+    
+}
+
+.side{
+    float: right;
+    position: relative;
+    bottom: 88px;
+}
+
+
+
+
