@@ -2,178 +2,139 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
-.resume-contents {
-    min-height: 100vh;
-    width: 80%;
-    margin: 2rem auto;
-    display: grid;
+body{
     grid-template-columns: repeat(7, 1fr);
-    
+    min-height: 100vh;
+    width: 75rem;
+    margin: 3rem auto;
+    display: grid;
 }
 
-.left-section {
-    grid-column: span 2;
-    height: 100%;
+.left-section{
+    height: 95%;
+    margin: 2rem auto;
     background-color: #00204A;
-    
+    grid-column: span 2;
+    width: 15rem;
+        
 }
 
-.right-section {
-    grid-column: span 5;
-    height: 100%;
-    background-color: #4B6982;
-    border-radius: 0px 60px 0px 0px;
-    border-left: 3px solid #258de1;
-
-}
-
-.left-section-contents{
-    padding: 2rem 2rem;
+.header-presentation{
+    padding: 1rem;
+    box-sizing: border-box;
 
 }
 
-.profile {
-    width: 100%;
-    border-bottom: 2px solid #eeeeee;
-}
-
-.profile .profile-image {
+.profile-image{
     width: 100%;
     border-radius: 100%;
 }
 
-.name {
-    color: #bccad3;
-    font-size: 25px;
-    letter-spacing: px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-.profession {
-    color: #FDB44B;
-    font-size: 15px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-
-.left-title {
-    color: #FDB44B;
-    font-size: 20px;
-    margin-top: 30px;
-    text-transform: uppercase;
-
-   
-}
-
-ul {
-    padding-top: 1rem;
-    list-style: none;
-}
-
-.contact-info ul li,
-.references ul li {
-    padding: .4rem 0;
-    color: #bccad3;
-    list-style: none;
-}
-
-.contact-info ul li i,
-.references ul li i {
-    padding: .4rem 0;
-    color: #bccad3;
-    list-style: none;
-}
-
-.skills{
-    margin-top: 2rem;
-}
-
-.skills ul {
-    padding: .3rem 1;
-    color: #bccad3;
-    list-style: none;
-    line-height: 30px;
-
-}
-.skills ul li p {
-    padding: .4rem 0;
-    color: #bccad3;
-}
-
-.right-section-contents {
-    padding: 2rem 2rem;
-}
-
-.right-title-about {
-    color: #70C6C7;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 1rem;
+.name{
+    color: #D6DBDF;
     font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
 }
 
-.gap {
+.ocupation{
+    color: #FDB44B;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 2px #1B2631 solid;
     padding-bottom: 2rem;
+    text-align: center;
+}
+
+.header-information{  /*contato e skills*/
+    width: 80%;
+    padding: 3rem;
 }
 
 
-.about-me-contents {
-    font-size: 16px;
-    color: #cadeeb;
-    margin-top: 2rem;
+.header-contact{
+    padding-bottom: 4rem;
 }
 
-
-.right-title-experience{
-    color: #70C6C7;
-    text-transform: uppercase;
-    font-size: 30px;
-    margin-top: 4rem;
-    font-weight: lighter;
-    
-}
-
-.company-name, .ocupation-title{
-    font-weight: lighter;
+.contact, .skills{
     color: #FDB44B;
-    margin-top: 2rem;
+    font-weight: lighter;
     text-transform: uppercase;
+    margin-bottom: 1.0rem;
+    font-size: 1.5rem;
+    
+    
+}
+
+.list-information{
+    list-style: none;
+    color: #a5b9ca;
+    line-height: 2rem;
+}
+
+.list-uppercase{
+    text-transform: uppercase;
+}
+
+.right-section{
+    grid-column: span 5;
+    background: #4B6982;
+    height: 95%;
+    margin: 2rem auto;
+    width: 60rem;
+    border-radius: 0px 60px 0px 0px;
+
+}
+
+.about-me, .experience, .education{
+    padding: 2rem
+    
+}
+
+
+
+.right-titles{
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 1.7rem;
     letter-spacing: 0.1rem;
+    color: #70C6C7;
 }
 
-.experience-time{
-    font-size: 17px;
-    margin-top: 0.5rem;
-    color: #bccad3;
+.about-me p{
+    color: #F1F8FD;
+    padding-top: 1rem;
 }
 
-.ocupation-title{
-    font-size: 25px;
-    
+.about-me, .experience, .education{
+    margin-bottom: 2.5rem;
 }
 
-.about-me-ocupation{
-    font-size: 16px;
-    padding-left: 5px;
-    color: #bccad3;
-    
+.experience-grid, .education-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 0 0 0;
 }
 
-.side{
-    float: right;
-    position: relative;
-    bottom: 88px;
+.company-name, .work-ocupation, .school-name, .school-ocupation{
+    color: #FDB44B;
+    text-transform: uppercase;
+    font-size: 1.3rem;
 }
 
+.work-period, .job-description, .school-period, .school-description{
+    color: #F1F8FD;
+    margin-bottom: 3rem;
+}
 
-
+.job-description, .school-description{
+    border-left: 1px #F1F8FD solid;
+    padding-left: 0.7rem;
+}
 
