@@ -68,8 +68,6 @@ body{
     text-transform: uppercase;
     margin-bottom: 1.0rem;
     font-size: 1.5rem;
-    
-    
 }
 
 .list-information{
@@ -89,15 +87,12 @@ body{
     margin: 2rem auto;
     width: 60rem;
     border-radius: 0px 60px 0px 0px;
-
 }
 
-.about-me, .experience, .education{
+.about-me, .experience, .education, .certificates{
     padding: 2rem
     
 }
-
-
 
 .right-titles{
     text-transform: uppercase;
@@ -112,29 +107,32 @@ body{
     padding-top: 1rem;
 }
 
-.about-me, .experience, .education{
+.about-me, .experience, .education, .certificates{
     margin-bottom: 2.5rem;
 }
 
-.experience-grid, .education-grid{
+.experience-grid, .education-grid, .certificates-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem 0 0 0;
 }
 
-.company-name, .work-ocupation, .school-name, .school-ocupation{
+.company-name, .work-ocupation, .school-name, .school-ocupation, .cert-school, .cert-name{
     color: #FDB44B;
     text-transform: uppercase;
     font-size: 1.3rem;
 }
 
-.work-period, .job-description, .school-period, .school-description{
+.work-period, .job-description, .school-period, .school-description, .cert-period, .cert-issued{
     color: #F1F8FD;
     margin-bottom: 3rem;
 }
 
-.job-description, .school-description{
+.job-description, .school-description, .cert-issued{
     border-left: 1px #F1F8FD solid;
     padding-left: 0.7rem;
 }
 
+.a:link, a:visited, a:hover, a:active{
+    color: #F1F8FD;
+}
