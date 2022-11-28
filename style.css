@@ -90,8 +90,12 @@ body{
 }
 
 .about-me, .experience, .education, .certificates{
+<<<<<<< HEAD
+    padding: 3rem;
+=======
     padding: 2rem
     
+>>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
 }
 
 .right-titles{
@@ -100,23 +104,32 @@ body{
     font-size: 1.7rem;
     letter-spacing: 0.1rem;
     color: #70C6C7;
+    margin-top: -1rem;
 }
 
 .about-me p{
     color: #F1F8FD;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
+<<<<<<< HEAD
+=======
 .about-me, .experience, .education, .certificates{
     margin-bottom: 2.5rem;
 }
+>>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
 
 .experience-grid, .education-grid, .certificates-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem 0 0 0;
+    padding: 0.3rem 0 0 0;
 }
 
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
 .company-name, .work-ocupation, .school-name, .school-ocupation, .cert-school, .cert-name{
     color: #FDB44B;
     text-transform: uppercase;
@@ -125,7 +138,7 @@ body{
 
 .work-period, .job-description, .school-period, .school-description, .cert-period, .cert-issued{
     color: #F1F8FD;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .job-description, .school-description, .cert-issued{
@@ -133,6 +146,17 @@ body{
     padding-left: 0.7rem;
 }
 
+<<<<<<< HEAD
+.a:link, a:visited, a:active{
+    color: #F1F8FD;
+}
+
+a:hover{
+    color: #70C6C7;
+}
+
+=======
 .a:link, a:visited, a:hover, a:active{
     color: #F1F8FD;
 }
+>>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
