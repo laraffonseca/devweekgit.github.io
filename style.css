@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Roboto';
 
 }
 
@@ -62,19 +62,28 @@ body{
     padding-bottom: 4rem;
 }
 
+
+
 .contact, .skills{
     color: #FDB44B;
     font-weight: lighter;
     text-transform: uppercase;
-    margin-bottom: 1.0rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    width: 12rem;
+    position: relative;
+    right: 1rem;
 }
 
 .list-information{
     list-style: none;
     color: #a5b9ca;
     line-height: 2rem;
+    position: relative;
+    right: 1rem;
+    width: 15rem;
+   
 }
+
 
 .list-uppercase{
     text-transform: uppercase;
