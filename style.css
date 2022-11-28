@@ -90,8 +90,7 @@ body{
 }
 
 .about-me, .experience, .education, .certificates{
-    padding: 2rem
-    
+    padding: 3rem;
 }
 
 .right-titles{
@@ -100,22 +99,22 @@ body{
     font-size: 1.7rem;
     letter-spacing: 0.1rem;
     color: #70C6C7;
+    margin-top: -1rem;
 }
 
 .about-me p{
     color: #F1F8FD;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
 }
 
-.about-me, .experience, .education, .certificates{
-    margin-bottom: 2.5rem;
-}
 
 .experience-grid, .education-grid, .certificates-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 1rem 0 0 0;
+    padding: 0.3rem 0 0 0;
 }
+
+
 
 .company-name, .work-ocupation, .school-name, .school-ocupation, .cert-school, .cert-name{
     color: #FDB44B;
@@ -125,7 +124,7 @@ body{
 
 .work-period, .job-description, .school-period, .school-description, .cert-period, .cert-issued{
     color: #F1F8FD;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
 }
 
 .job-description, .school-description, .cert-issued{
@@ -133,6 +132,10 @@ body{
     padding-left: 0.7rem;
 }
 
-.a:link, a:visited, a:hover, a:active{
+.a:link, a:visited, a:active{
     color: #F1F8FD;
+}
+
+a:hover{
+    color: #70C6C7;
 }
