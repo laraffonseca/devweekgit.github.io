@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', 'Roboto';
 
 }
 
@@ -62,19 +62,33 @@ body{
     padding-bottom: 4rem;
 }
 
+
+
 .contact, .skills{
     color: #FDB44B;
     font-weight: lighter;
     text-transform: uppercase;
+<<<<<<< HEAD
+    font-size: 1.3rem;
+    width: 12rem;
+    position: relative;
+    right: 1rem;
+=======
     margin-bottom: 1.0rem;
     font-size: 1.5rem;
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
 }
 
 .list-information{
     list-style: none;
     color: #a5b9ca;
     line-height: 2rem;
+    position: relative;
+    right: 1rem;
+    width: 15rem;
+   
 }
+
 
 .list-uppercase{
     text-transform: uppercase;
@@ -93,9 +107,13 @@ body{
 <<<<<<< HEAD
     padding: 3rem;
 =======
+<<<<<<< HEAD
+    padding: 3rem;
+=======
     padding: 2rem
     
 >>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
 }
 
 .right-titles{
@@ -114,10 +132,13 @@ body{
 
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 .about-me, .experience, .education, .certificates{
     margin-bottom: 2.5rem;
 }
 >>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
 
 .experience-grid, .education-grid, .certificates-grid{
     display: grid;
@@ -129,7 +150,12 @@ body{
 
 
 =======
+<<<<<<< HEAD
+
+
+=======
 >>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
 .company-name, .work-ocupation, .school-name, .school-ocupation, .cert-school, .cert-name{
     color: #FDB44B;
     text-transform: uppercase;
@@ -147,6 +173,9 @@ body{
 }
 
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
 .a:link, a:visited, a:active{
     color: #F1F8FD;
 }
@@ -155,8 +184,11 @@ a:hover{
     color: #70C6C7;
 }
 
+<<<<<<< HEAD
+=======
 =======
 .a:link, a:visited, a:hover, a:active{
     color: #F1F8FD;
 }
 >>>>>>> 5bf27ade440fb3322db1949642ab719100045bf5
+>>>>>>> 3aba41e6a04ac8c96b8a1588aba820e601e3a7d2
